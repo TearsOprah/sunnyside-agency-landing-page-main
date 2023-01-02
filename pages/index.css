@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/images-grid/images-grid.css);
+@import url(../blocks/info-grid/info-grid.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/testimonials/testimonials.css);
+
+
+@import url(../blocks/navigation/__item/navigation__link.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+
+
+@import url(../blocks/navigation/__item/_selection/navigation__link_selection.css);
