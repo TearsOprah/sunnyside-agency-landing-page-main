@@ -1,0 +1,14 @@
+.info-grid__item {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  max-width: 50vw;
+}
+
+.info-grid__item img {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
