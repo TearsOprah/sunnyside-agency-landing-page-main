@@ -6,26 +6,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body class="page">
   <header class="header">
     <nav class="navigation">
       <img class="logo" src="./images/logo.svg" alt="логотип">
       <ul class="navigation__links">
-        <li class="navigation__link">About</li>
-        <li class="navigation__link">Services</li>
-        <li class="navigation__link">Projects</li>
+        <li class="navigation__link hovered-link">About</li>
+        <li class="navigation__link hovered-link">Services</li>
+        <li class="navigation__link hovered-link">Projects</li>
         <li>
-          <button class="navigation__button">Contact</button>
+          <button class="navigation__button hovered-link">CONTACT</button>
         </li>
       </ul>
     </nav>
-    <h1 class="header__title">We are creatives</h1>
+    <h1 class="header__title">WE ARE CREATIVES</h1>
     <img class="header__arrow" src="./images/icon-arrow-down.svg" alt="стрелка">
   </header>
 
@@ -36,31 +31,31 @@
         <div class="info-grid__information">
           <h2 class="info-grid__title">Transform your brand</h2>
           <p class="info-grid__description">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-          <a class="info-grid__link">LEARN MORE</a>
+          <a class="info-grid__link hovered-link">LEARN MORE</a>
         </div>
       </div>
       <div class="info-grid__item">
-        <img src="./images/desktop/image-transform.jpg">
+        <img src="./images/desktop/image-transform.jpg" alt="egg">
       </div>
       <div class="info-grid__item">
-        <img src="./images/desktop/image-stand-out.jpg">
+        <img src="./images/desktop/image-stand-out.jpg" alt="бокал">
       </div>
       <div class="info-grid__item">
         <div class="info-grid__information">
           <h2 class="info-grid__title">Stand out to the right audience</h2>
           <p class="info-grid__description">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-          <a class="info-grid__link">LEARN MORE</a>
+          <a class="info-grid__link hovered-link">LEARN MORE</a>
         </div>
       </div>
       <div class="info-grid__item">
-        <img src="./images/desktop/image-graphic-design.jpg">
+        <img src="./images/desktop/image-graphic-design.jpg" alt="вишенка">
         <div class="info-grid__information info-grid__information_type_2">
           <h2 class="info-grid__title info-grid__title_type_2">Graphic design</h2>
           <p class="info-grid__description info-grid__description_type_2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
         </div>
       </div>
       <div class="info-grid__item">
-        <img src="./images/desktop/image-photography.jpg">
+        <img src="./images/desktop/image-photography.jpg" alt="мандаринка">
         <div class="info-grid__information info-grid__information_type_2">
           <h2 class="info-grid__title info-grid__title_type_2">Photography</h2>
           <p class="info-grid__description info-grid__description_type_2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
@@ -69,25 +64,25 @@
     </section>
 
     <section class="testimonials">
-      <h2 class="testimonials__title">Client testimonials</h2>
+      <h2 class="testimonials__title">CLIENT TESTIMONIALS</h2>
       <div class="testimonials__list">
 
         <div class="testimonials__list-item">
-          <img class="testimonials__image" src="./images/image-emily.jpg">
+          <img class="testimonials__image" src="./images/image-emily.jpg" alt="фото человека">
           <p class="testimonials__text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
           <p class="testimonials__name">Emily R.</p>
           <p class="testimonials__profession">Marketing Director</p>
         </div>
 
         <div class="testimonials__list-item">
-          <img class="testimonials__image" src="./images/image-thomas.jpg">
+          <img class="testimonials__image" src="./images/image-thomas.jpg" alt="фото человека">
           <p class="testimonials__text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
           <p class="testimonials__name">Thomas S.</p>
           <p class="testimonials__profession">Chief Operating Officer</p>
         </div>
 
         <div class="testimonials__list-item">
-          <img class="testimonials__image" src="./images/image-jennie.jpg">
+          <img class="testimonials__image" src="./images/image-jennie.jpg" alt="фото человека">
           <p class="testimonials__text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
           <p class="testimonials__name">Jennie F.</p>
           <p class="testimonials__profession">Business Owner</p>
@@ -97,10 +92,10 @@
     </section>
 
     <section class="images-grid">
-      <img class="images-grid__item" src="./images/desktop/image-gallery-milkbottles.jpg">
-      <img class="images-grid__item" src="./images/desktop/image-gallery-orange.jpg">
-      <img class="images-grid__item" src="./images/desktop/image-gallery-cone.jpg">
-      <img class="images-grid__item" src="./images/desktop/image-gallery-sugarcubes.jpg">
+      <img class="images-grid__item" src="./images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+      <img class="images-grid__item" src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+      <img class="images-grid__item" src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+      <img class="images-grid__item" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
     </section>
 
   </main>
@@ -108,9 +103,9 @@
   <footer class="footer">
     <img class="logo footer__logo" src="./images/logo2.svg" alt="logo">
     <div class="footer__links">
-      <a class="footer__link" href="#">About</a>
-      <a class="footer__link" href="#">Services</a>
-      <a class="footer__link" href="#">Projects</a>
+      <a class="footer__link hovered-link" href="#">About</a>
+      <a class="footer__link hovered-link" href="#">Services</a>
+      <a class="footer__link hovered-link" href="#">Projects</a>
     </div>
     <div class="footer__socials">
       <a class="footer__socials-item" href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a>

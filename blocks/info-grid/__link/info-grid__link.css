@@ -1,4 +1,31 @@
 .info-grid__link {
   margin: 0;
   padding: 0;
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.info-grid__link::before {
+  content: "";
+  position: absolute;
+  left: 70px;
+  bottom: -4px;
+  width: 140px;
+  height: 12px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238,111,87,0.5);
+  z-index: -1;
+}
+
+.info-grid__link:hover {
+  opacity: 0.9;
+}
+
+.info-grid__link:hover::before {
+  bottom: -10px;
+  transition: 1s;
+  background: rgba(238,111,87, 1);
 }

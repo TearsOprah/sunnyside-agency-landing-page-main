@@ -1,4 +1,9 @@
 .info-grid__description {
   margin: 0;
   padding: 0;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 16px;
+  color: hsl(232, 10%, 55%);
+  line-height: 1.6;
 }

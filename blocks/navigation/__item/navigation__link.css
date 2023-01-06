@@ -1,4 +1,11 @@
 .navigation__link {
   margin: 0;
   padding: 0;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navigation__link:hover {
+  opacity: 0.8;
 }

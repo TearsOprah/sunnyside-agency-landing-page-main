@@ -9,6 +9,7 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/hovered-link/hovered-link.css);
 
 
 @import url(../blocks/navigation/__item/navigation__link.css);

@@ -1,0 +1,4 @@
+.hovered-link {
+  transition: 1s;
+  cursor: pointer;
+}
