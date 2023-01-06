@@ -18,6 +18,14 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__arrow/header__arrow.css);
 @import url(../blocks/info-grid/__item/info-grid__item.css);
+@import url(../blocks/info-grid/__information/info-grid__information.css);
+@import url(../blocks/info-grid/__title/info-grid__title.css);
+@import url(../blocks/info-grid/__description/info-grid__description.css);
+@import url(../blocks/info-grid/__link/info-grid__link.css);
+
+@import url(../blocks/info-grid/__description/_type_2/info-grid__description_type_2.css);
+@import url(../blocks/info-grid/__title/_type_2/info-grid__title_type_2.css);
+@import url(../blocks/info-grid/__information/_type_2/info-grid__information_type_2.css);
 
 
 
