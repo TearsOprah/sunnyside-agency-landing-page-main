@@ -28,6 +28,12 @@
 @import url(../blocks/testimonials/__profession/testimonials__profession.css);
 @import url(../blocks/testimonials/__name/testimonials__name.css);
 @import url(../blocks/testimonials/__list/testimonials__list.css);
+@import url(../blocks/images-grid/__item/images-grid__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__socials-item/footer__socials-item.css);
 
 
 @import url(../blocks/info-grid/__description/_type_2/info-grid__description_type_2.css);
