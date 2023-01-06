@@ -11,7 +11,6 @@
 @import url(../blocks/testimonials/testimonials.css);
 
 
-
 @import url(../blocks/navigation/__item/navigation__link.css);
 @import url(../blocks/navigation/__links/navigation__links.css);
 @import url(../blocks/navigation/__button/navigation__button.css);
@@ -22,6 +21,14 @@
 @import url(../blocks/info-grid/__title/info-grid__title.css);
 @import url(../blocks/info-grid/__description/info-grid__description.css);
 @import url(../blocks/info-grid/__link/info-grid__link.css);
+@import url(../blocks/testimonials/__title/testimonials__title.css);
+@import url(../blocks/testimonials/__image/testimonials__image.css);
+@import url(../blocks/testimonials/__list-item/testimonials__list-item.css);
+@import url(../blocks/testimonials/__text/testimonials__text.css);
+@import url(../blocks/testimonials/__profession/testimonials__profession.css);
+@import url(../blocks/testimonials/__name/testimonials__name.css);
+@import url(../blocks/testimonials/__list/testimonials__list.css);
+
 
 @import url(../blocks/info-grid/__description/_type_2/info-grid__description_type_2.css);
 @import url(../blocks/info-grid/__title/_type_2/info-grid__title_type_2.css);

@@ -1,4 +1,10 @@
 .testimonials {
   margin: 0;
-  padding: 0;
+  padding: 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
 }
