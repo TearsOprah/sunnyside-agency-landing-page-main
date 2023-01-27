@@ -13,3 +13,11 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+
+@media screen and (max-width: 654px) {
+  .info-grid__item {
+    max-width: 100vw;
+    height: 90vw;
+  }
+}

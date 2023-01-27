@@ -7,3 +7,19 @@
   color: hsl(232, 10%, 55%);
   line-height: 1.6;
 }
+
+
+@media screen and (max-width: 1060px) {
+  .info-grid__description {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+
+
+@media screen and (max-width: 654px) {
+  .info-grid__description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}

@@ -5,3 +5,10 @@
   flex-direction: column;
   gap: 40px;
 }
+
+
+@media screen and (max-width: 777px) {
+  .info-grid__information {
+    width: 400px;
+  }
+}

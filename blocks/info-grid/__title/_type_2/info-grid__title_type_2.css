@@ -4,3 +4,17 @@
   font-size: 30px;
   color: hsl(213, 9%, 39%);
 }
+
+
+@media screen and (max-width: 1060px) {
+  .info-grid__title_type_2 {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 654px) {
+  .info-grid__title_type_2 {
+    font-size: 30px;
+  }
+}

@@ -18,6 +18,7 @@
   transform: skew(-12deg) translateX(-50%);
   background: rgba(238,111,87,0.5);
   z-index: -1;
+  transition: 1s;
 }
 
 .info-grid__link:hover {
@@ -26,6 +27,5 @@
 
 .info-grid__link:hover::before {
   bottom: -10px;
-  transition: 1s;
   background: rgba(238,111,87, 1);
 }
